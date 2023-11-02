@@ -16,6 +16,7 @@
 
 }
 
+/*блюр*/
 .page-header ::before {
     content: "";
     position: absolute;
@@ -40,6 +41,7 @@
     width: 100%;
 }
 
+/*логоти*/
 .page-header__logo {
     margin-right: 237px;
     display: inline-block;
@@ -48,6 +50,7 @@
 }
 
 .page-header__logo-img {
+    padding-left: 40px;
     width: 100%;
     height: 100%;
 }
