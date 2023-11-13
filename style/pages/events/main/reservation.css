@@ -1,0 +1,132 @@
+.reservation {
+    margin-bottom: 67px;
+}
+
+.reservation__title {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.reservation__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation__scheme-block {
+    display: grid;
+    grid-template-areas:
+            ". . a . ."
+            "b c d e f"
+            "g k l n m"
+            ". o . p .";
+}
+
+.reservation__scheme_a {
+    grid-area: a;
+    background: var(--main-color);
+    width: 162px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation__scheme-text-desc {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.reservation__scheme-text-desc {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+.reservation__scheme-text_active-black {
+    color: white;
+}
+
+.reservation__scheme-wrapper_b {
+    grid-area: b;
+    position: relative;
+}
+
+.reservation__scheme_a-first {
+    position: relative;
+    width: 127px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+    border: 1px solid var(--main-color);
+}
+
+.reservation__scheme_a-first::before {
+    content: '';
+    display: block;
+
+    width: 30px;
+    height: 1px;
+    background: white;
+
+    position: absolute;
+    top: -1px;
+    right: 0;
+    z-index: 1;
+}
+
+.reservation__scheme_a-last {
+    position: relative;
+    height: calc(93px - 32px);
+    width: 32px;
+    border: 1px solid var(--main-color);
+    margin-left: auto;
+}
+
+.reservation__scheme_a-last::before {
+    content: '';
+    display: block;
+
+    width: 30px;
+    height: 1px;
+    background: white;
+
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    z-index: 1;
+}
+
+.reservation__scheme-round-black {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+
+    position: absolute;
+}
+
+.reservation__scheme_a-round-1 {
+    left: 0;
+    bottom: 36px;
+}
+
+.reservation__scheme_a-round-2 {
+    left: 34px;
+    bottom: 36px;
+}
+
+.reservation__scheme_a-round-3 {
+     left: 67px;
+     bottom: 36px;
+}
+
+.reservation__scheme_a-round-4 {
+    left: 67px;
+    bottom: 65px;
+}

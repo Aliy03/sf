@@ -26,6 +26,10 @@
     font-weight: 600;
 }
 
+.nav__list__item__link_active{
+    color: var(--active-links);
+}
+
 .btn {
     padding: 15px 40px;
     border: 1px solid var(--main-color);
