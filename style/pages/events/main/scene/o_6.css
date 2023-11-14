@@ -1,0 +1,50 @@
+.reservation__scheme-wrapper_o {
+    grid-area: o;
+    position: relative;
+}
+
+.reservation__scheme_o {
+    position: relative;
+    width: 41px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+    border: 1px solid var(--main-color);
+}
+
+.reservation__scheme_o-round-1 {
+    left: 10px;
+    bottom: -25px;
+}
+
+.reservation__scheme_o-round-2 {
+    left: 43px;
+    bottom: 36px;
+}
+
+.reservation__scheme_o-round-3 {
+    left: 43px;
+    bottom: 5px;
+}
+
+.reservation__scheme_o-round-4 {
+    left: 43px;
+    bottom: 65px;
+}
+
+.reservation__scheme_o-round-5 {
+    left: -26px;
+    bottom: 36px;
+}
+
+.reservation__scheme_o-round-6 {
+    left: -26px;
+    bottom: 5px;
+}
+
+.reservation__scheme_o-round-7 {
+    left: -26px;
+    bottom: 65px;
+}
