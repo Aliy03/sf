@@ -1,7 +1,8 @@
 .reservation__scheme-wrapper_e {
     grid-area: e;
-    position: relative;
+    margin-left: 45px;
     padding: var(--padding-round) var(--padding-round) var(--padding-round) 0;
+    position: relative;
 }
 
 .reservation__scheme_e {

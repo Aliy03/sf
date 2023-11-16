@@ -7,11 +7,12 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 21px;
+    margin-left: -4px;
 }
 
 .program__list__item {
     position: relative;
-    padding-left: 10px;
+    padding-left: 14px;
 }
 
 .program__list__item:before {

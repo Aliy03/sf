@@ -1,8 +1,9 @@
-
 .reservation__scheme-wrapper_n {
     grid-area: n;
     position: relative;
+    left: 45px;
     padding: var(--padding-round) var(--padding-round) var(--padding-round) 0;
+    width: min-content;
 }
 
 .reservation__scheme_n {

@@ -3,7 +3,10 @@
 
     grid-area: m;
     position: relative;
+    margin-left: 67px;
+    top: 32px;
     padding: 0 var(--padding-round) var(--padding-round) var(--padding-round);
+    width: min-content;
 }
 
 .reservation__scheme_m {

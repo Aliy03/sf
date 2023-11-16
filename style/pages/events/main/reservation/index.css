@@ -1,4 +1,5 @@
-@import url("./scene/index.css");
+@import url("scene/index.css");
+@import url("table.css");
 
 .reservation {
     margin-bottom: 67px;
@@ -9,7 +10,7 @@
     font-size: 18px;
     font-weight: 700;
 
-    margin-bottom: 15px;
+    margin-bottom: 31px;
 }
 
 .reservation__wrapper {

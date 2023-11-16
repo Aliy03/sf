@@ -4,6 +4,9 @@
     grid-area: o;
     position: relative;
     padding: 0 var(--padding-round) var(--padding-round) var(--padding-round);
+    right: -10px;
+    width: min-content;
+    margin-left: auto;
 }
 
 .reservation__scheme_o {

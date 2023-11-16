@@ -1,6 +1,8 @@
 .reservation__scheme-wrapper_l {
     grid-area: l;
     position: relative;
+    top: 30px;
+    left: -32px;
     padding: 0 var(--padding-round) var(--padding-round) var(--padding-round);
     width: min-content;
 }

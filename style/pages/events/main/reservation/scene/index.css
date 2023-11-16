@@ -11,7 +11,7 @@
 @import url('c_9.css');
 @import url('a_scene.css');
 @import url('d_dance.css');
-@import url('table.css');
+@import url('../table.css');
 
 :root {
     --padding-round: 30px; /*отступ у стульчиков*/
@@ -19,15 +19,18 @@
 }
 
 .reservation__scheme-block {
+    margin-top: 33px;
+    margin-right: -12px;
+    position: relative;
     display: grid;
     grid-template-areas:
             ". . a . ."
             "b c d e f"
             "g k l n m"
             ". o . p .";
-    grid-column-gap: 100px;
-    grid-row-gap: 100px;
-    align-items: center;
+    grid-column-gap: 0;
+    grid-template-rows: repeat(5, min-content);
+    align-items: flex-start;
 }
 
 .reservation__scheme-round-black {
@@ -52,6 +55,10 @@
     background: var(--main-color);
 }
 
+.reservation__scheme__red_active {
+    background: var(--active-btn);
+}
+
 .reservation__scheme-round-red {
     width: var(--round);
     height: var(--round);
@@ -59,6 +66,10 @@
     border-radius: 50px;
 
     position: absolute;
+}
+
+.reservation__scheme-round-red_active{
+    background: var(--active-btn);
 }
 
 .reservation__scheme-text {

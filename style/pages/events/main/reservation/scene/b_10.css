@@ -1,6 +1,8 @@
 .reservation__scheme-wrapper_b {
     grid-area: b;
     position: relative;
+    margin-right: 52px;
+    top: -12px;
 }
 
 .reservation__scheme_b-first {
