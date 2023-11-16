@@ -1,0 +1,10 @@
+.reservation__scheme_d {
+    grid-area: d;
+    background: var(--main-color);
+    width: 141px;
+    height: 141px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

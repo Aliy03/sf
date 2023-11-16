@@ -11,6 +11,7 @@
 @import url('c_9.css');
 @import url('a_scene.css');
 @import url('d_dance.css');
+@import url('table.css');
 
 :root {
     --padding-round: 30px; /*отступ у стульчиков*/

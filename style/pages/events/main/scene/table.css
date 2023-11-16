@@ -1,0 +1,35 @@
+.reservation__checkbox-block{
+    max-width: 90px;
+}
+
+.table__text{
+    color: var(-active-links);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px; /*работает*/
+}
+
+
+.option{
+    display: block;
+    margin-bottom: 12px;
+}
+
+.check{
+    padding-left: 40px;
+}
+
+/*скрываем чекбокс
+.check__input{
+    position: absolute;
+    -webkit-appearance: none;
+}
+
+.check__box{
+    position: absolute
+    margin-top: 9px;
+    margin-left: 15px;
+    wight: 24px;
+    height: 24px;
+}
+*/
